@@ -54,6 +54,7 @@ public class FastDFSClient {
 	public String[] uploadFile(byte[] fileContent,String extName,NameValuePair[] metas) throws IOException, MyException {
 		String[] strings = storageClient.upload_file(fileContent, extName, metas);
 		return strings;
+
 	}
 
 	public String[] uploadFile(byte[] fileContent,String extName )throws IOException, MyException {
