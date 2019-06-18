@@ -1,9 +1,10 @@
 package com.qf.utils;
 
 public class restutil {
-  
-  public String add(){
-    
+public String add(){
+
     return "";
 }
+
+
 }
